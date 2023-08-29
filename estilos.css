@@ -9,14 +9,18 @@
 
 body {
     font-family: 'Playfair Display', sans-serif; /* Define a fonte padrão */
-    background-color: #f0f0f0; /* Define a cor de fundo */
+    background-color: #e4af00; /* Define a cor de fundo */
 }
 
 header {
     background-color: #000000; /* Define a cor de fundo */
-    color: #fff; /* Define a cor do texto */
+    color: #ffffff; /* Define a cor do texto */
     text-align: center; /* Centraliza o texto */
-    padding: 1rem; /* Define um espaçamento interno */
+    padding: 2rem; /* Define um espaçamento interno */
+}
+
+ ul li:hover {
+    text-decoration: underline;
 }
 
 nav ul {
@@ -25,13 +29,12 @@ nav ul {
 
 nav li {
     display: inline; /* Faz com que os itens da lista fiquem na mesma linha */
-    margin: 120px; /* Define um espaçamento entre os itens */
+    margin: 110px; /* Define um espaçamento entre os itens */
 }
 
 nav a {
     text-decoration: none; /* Remove o sublinhado dos links */
     color: #fff; /* Define a cor do texto */
-    font-weight: bold; /* Define o peso da fonte */
 }
 
 main {
@@ -44,8 +47,8 @@ main {
     height: 475px; /* Define a altura do card */
     margin: 10px; /* Define um espaçamento externo */
     padding: 20px; /* Define um espaçamento interno */
-    background-color: #fff; /* Define a cor de fundo */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+    background-color: #ffffff; /* Define a cor de fundo */
+    box-shadow: 0 7px 9px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra */
     text-align: center; /* Centraliza o texto */
     float: left; /* Faz com que os elementos fiquem na mesma linha */
 }
@@ -56,8 +59,8 @@ main {
 }
 
 .card button {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffc919;
+    color: #000000;
     border: none;
     padding: 8px 16px;
     margin-top: 10px;
@@ -66,7 +69,9 @@ main {
 }
 
 .card button:hover {
-    background-color: #555; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #ac8711; /* Muda a cor de fundo ao passar o mouse */
+    transition: transform 0.5s ease;
+    transform: scale(1.05);
 }
 
 footer {
